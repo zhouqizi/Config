@@ -1,2 +1,2 @@
 # Config
-配置文件
+IDEA和vim 配置文件

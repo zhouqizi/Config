@@ -1,0 +1,50 @@
+let mapleader=" "
+syntax on
+set number
+set norelativenumber
+set cursorline
+set wrap
+set showcmd
+set wildmenu
+
+set hlsearch
+exec "nohlsearch"
+set incsearch
+set ignorecase
+set smartcase
+
+set mouse=a
+set encoding=utf-8
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=2
+
+noremap = nzz
+noremap - Nzz
+noremap <LEADER><CR> :nohlsearch<CR>
+
+noremap h h
+noremap j j
+noremap k k
+noremap l l
+
+noremap H 5h
+noremap J 5j
+noremap K 7k
+noremap L 7l
+
+" N key: go to the start of the line
+noremap <silent> N 0
+" I key: go to the end of the line
+noremap <silent> I $
+
+" Faster in-line navigation
+noremap W 5w
+noremap B 5b
+
+map s <nop>
+map S :w<CR>
+map Q :q<CR>
+map R :source $MYVIMRC<CR>
+map ; :
