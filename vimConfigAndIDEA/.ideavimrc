@@ -6,6 +6,7 @@ set cursorline
 set wrap
 set showcmd
 set wildmenu
+set scrolloff=5
 
 set hlsearch
 exec "nohlsearch"
